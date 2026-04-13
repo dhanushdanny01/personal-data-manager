@@ -2,7 +2,7 @@
   "name": "personal-data-manager-server",
   "version": "2.0.0",
   "description": "Production-ready backend server for Personal Data Manager with advanced features",
-  "main": "enhancedServer.js",
+  "main": "server.js",
   "scripts": {
     "start": "node enhancedServer.js",
     "dev": "nodemon enhancedServer.js",
