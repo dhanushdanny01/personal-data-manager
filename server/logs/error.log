@@ -1,0 +1,495 @@
+{
+  error: MongooseError: Connection.prototype.close() no longer accepts a callback
+      at NativeConnection.close (C:\persodm\server\node_modules\mongoose\lib\connection.js:856:11)
+      at Server.<anonymous> (C:\persodm\server\enhancedServer.js:216:25)
+      at Object.onceWrapper (node:events:622:28)
+      at Server.emit (node:events:508:28)
+      at emitCloseNT (node:net:2419:8)
+      at process.processTicksAndRejections (node:internal/process/task_queues:88:21),
+  level: 'error',
+  message: 'unhandledRejection: Connection.prototype.close() no longer accepts a callback\n' +
+    'MongooseError: Connection.prototype.close() no longer accepts a callback\n' +
+    '    at NativeConnection.close (C:\\persodm\\server\\node_modules\\mongoose\\lib\\connection.js:856:11)\n' +
+    '    at Server.<anonymous> (C:\\persodm\\server\\enhancedServer.js:216:25)\n' +
+    '    at Object.onceWrapper (node:events:622:28)\n' +
+    '    at Server.emit (node:events:508:28)\n' +
+    '    at emitCloseNT (node:net:2419:8)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:88:21)',
+  stack: 'MongooseError: Connection.prototype.close() no longer accepts a callback\n' +
+    '    at NativeConnection.close (C:\\persodm\\server\\node_modules\\mongoose\\lib\\connection.js:856:11)\n' +
+    '    at Server.<anonymous> (C:\\persodm\\server\\enhancedServer.js:216:25)\n' +
+    '    at Object.onceWrapper (node:events:622:28)\n' +
+    '    at Server.emit (node:events:508:28)\n' +
+    '    at emitCloseNT (node:net:2419:8)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:88:21)',
+  rejection: true,
+  date: 'Mon Apr 13 2026 01:34:24 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 24976,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\persodm\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v24.12.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\persodm\\server\\enhancedServer.js'
+    ],
+    memoryUsage: {
+      rss: 68780032,
+      heapTotal: 23379968,
+      heapUsed: 21084944,
+      external: 20788021,
+      arrayBuffers: 18275279
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 47883.734 },
+  trace: [
+    {
+      column: 11,
+      file: 'C:\\persodm\\server\\node_modules\\mongoose\\lib\\connection.js',
+      function: 'NativeConnection.close',
+      line: 856,
+      method: 'close',
+      native: false
+    },
+    {
+      column: 25,
+      file: 'C:\\persodm\\server\\enhancedServer.js',
+      function: null,
+      line: 216,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Object.onceWrapper',
+      line: 622,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Server.emit',
+      line: 508,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 8,
+      file: 'node:net',
+      function: 'emitCloseNT',
+      line: 2419,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 88,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  service: 'personal-data-manager',
+  timestamp: '2026-04-13 01:34:24'
+}
+{
+  error: MongooseError: Connection.prototype.close() no longer accepts a callback
+      at NativeConnection.close (C:\persodm\server\node_modules\mongoose\lib\connection.js:856:11)
+      at Server.<anonymous> (C:\persodm\server\enhancedServer.js:216:25)
+      at Object.onceWrapper (node:events:622:28)
+      at Server.emit (node:events:508:28)
+      at emitCloseNT (node:net:2419:8)
+      at process.processTicksAndRejections (node:internal/process/task_queues:88:21),
+  level: 'error',
+  message: 'unhandledRejection: Connection.prototype.close() no longer accepts a callback\n' +
+    'MongooseError: Connection.prototype.close() no longer accepts a callback\n' +
+    '    at NativeConnection.close (C:\\persodm\\server\\node_modules\\mongoose\\lib\\connection.js:856:11)\n' +
+    '    at Server.<anonymous> (C:\\persodm\\server\\enhancedServer.js:216:25)\n' +
+    '    at Object.onceWrapper (node:events:622:28)\n' +
+    '    at Server.emit (node:events:508:28)\n' +
+    '    at emitCloseNT (node:net:2419:8)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:88:21)',
+  stack: 'MongooseError: Connection.prototype.close() no longer accepts a callback\n' +
+    '    at NativeConnection.close (C:\\persodm\\server\\node_modules\\mongoose\\lib\\connection.js:856:11)\n' +
+    '    at Server.<anonymous> (C:\\persodm\\server\\enhancedServer.js:216:25)\n' +
+    '    at Object.onceWrapper (node:events:622:28)\n' +
+    '    at Server.emit (node:events:508:28)\n' +
+    '    at emitCloseNT (node:net:2419:8)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:88:21)',
+  rejection: true,
+  date: 'Mon Apr 13 2026 01:44:36 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 7992,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\persodm\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v24.12.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\persodm\\server\\enhancedServer.js'
+    ],
+    memoryUsage: {
+      rss: 73334784,
+      heapTotal: 25214976,
+      heapUsed: 21825896,
+      external: 20866042,
+      arrayBuffers: 18342388
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 48495.187 },
+  trace: [
+    {
+      column: 11,
+      file: 'C:\\persodm\\server\\node_modules\\mongoose\\lib\\connection.js',
+      function: 'NativeConnection.close',
+      line: 856,
+      method: 'close',
+      native: false
+    },
+    {
+      column: 25,
+      file: 'C:\\persodm\\server\\enhancedServer.js',
+      function: null,
+      line: 216,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Object.onceWrapper',
+      line: 622,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Server.emit',
+      line: 508,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 8,
+      file: 'node:net',
+      function: 'emitCloseNT',
+      line: 2419,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 88,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  service: 'personal-data-manager',
+  timestamp: '2026-04-13 01:44:36'
+}
+{
+  error: MongooseError: Connection.prototype.close() no longer accepts a callback
+      at NativeConnection.close (C:\persodm\server\node_modules\mongoose\lib\connection.js:856:11)
+      at Server.<anonymous> (C:\persodm\server\enhancedServer.js:216:25)
+      at Object.onceWrapper (node:events:622:28)
+      at Server.emit (node:events:508:28)
+      at emitCloseNT (node:net:2419:8)
+      at process.processTicksAndRejections (node:internal/process/task_queues:88:21),
+  level: 'error',
+  message: 'unhandledRejection: Connection.prototype.close() no longer accepts a callback\n' +
+    'MongooseError: Connection.prototype.close() no longer accepts a callback\n' +
+    '    at NativeConnection.close (C:\\persodm\\server\\node_modules\\mongoose\\lib\\connection.js:856:11)\n' +
+    '    at Server.<anonymous> (C:\\persodm\\server\\enhancedServer.js:216:25)\n' +
+    '    at Object.onceWrapper (node:events:622:28)\n' +
+    '    at Server.emit (node:events:508:28)\n' +
+    '    at emitCloseNT (node:net:2419:8)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:88:21)',
+  stack: 'MongooseError: Connection.prototype.close() no longer accepts a callback\n' +
+    '    at NativeConnection.close (C:\\persodm\\server\\node_modules\\mongoose\\lib\\connection.js:856:11)\n' +
+    '    at Server.<anonymous> (C:\\persodm\\server\\enhancedServer.js:216:25)\n' +
+    '    at Object.onceWrapper (node:events:622:28)\n' +
+    '    at Server.emit (node:events:508:28)\n' +
+    '    at emitCloseNT (node:net:2419:8)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:88:21)',
+  rejection: true,
+  date: 'Mon Apr 13 2026 01:48:23 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 19900,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\persodm\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v24.12.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\persodm\\server\\enhancedServer.js'
+    ],
+    memoryUsage: {
+      rss: 73801728,
+      heapTotal: 23904256,
+      heapUsed: 21453408,
+      external: 20907071,
+      arrayBuffers: 18305896
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 48722.656 },
+  trace: [
+    {
+      column: 11,
+      file: 'C:\\persodm\\server\\node_modules\\mongoose\\lib\\connection.js',
+      function: 'NativeConnection.close',
+      line: 856,
+      method: 'close',
+      native: false
+    },
+    {
+      column: 25,
+      file: 'C:\\persodm\\server\\enhancedServer.js',
+      function: null,
+      line: 216,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Object.onceWrapper',
+      line: 622,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Server.emit',
+      line: 508,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 8,
+      file: 'node:net',
+      function: 'emitCloseNT',
+      line: 2419,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 88,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  service: 'personal-data-manager',
+  timestamp: '2026-04-13 01:48:23'
+}
+{
+  error: MongooseError: Connection.prototype.close() no longer accepts a callback
+      at NativeConnection.close (C:\persodm\server\node_modules\mongoose\lib\connection.js:856:11)
+      at Server.<anonymous> (C:\persodm\server\enhancedServer.js:216:25)
+      at Object.onceWrapper (node:events:622:28)
+      at Server.emit (node:events:508:28)
+      at emitCloseNT (node:net:2419:8)
+      at process.processTicksAndRejections (node:internal/process/task_queues:88:21),
+  level: 'error',
+  message: 'unhandledRejection: Connection.prototype.close() no longer accepts a callback\n' +
+    'MongooseError: Connection.prototype.close() no longer accepts a callback\n' +
+    '    at NativeConnection.close (C:\\persodm\\server\\node_modules\\mongoose\\lib\\connection.js:856:11)\n' +
+    '    at Server.<anonymous> (C:\\persodm\\server\\enhancedServer.js:216:25)\n' +
+    '    at Object.onceWrapper (node:events:622:28)\n' +
+    '    at Server.emit (node:events:508:28)\n' +
+    '    at emitCloseNT (node:net:2419:8)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:88:21)',
+  stack: 'MongooseError: Connection.prototype.close() no longer accepts a callback\n' +
+    '    at NativeConnection.close (C:\\persodm\\server\\node_modules\\mongoose\\lib\\connection.js:856:11)\n' +
+    '    at Server.<anonymous> (C:\\persodm\\server\\enhancedServer.js:216:25)\n' +
+    '    at Object.onceWrapper (node:events:622:28)\n' +
+    '    at Server.emit (node:events:508:28)\n' +
+    '    at emitCloseNT (node:net:2419:8)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:88:21)',
+  rejection: true,
+  date: 'Mon Apr 13 2026 02:02:37 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 23240,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\persodm\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v24.12.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\persodm\\server\\enhancedServer.js'
+    ],
+    memoryUsage: {
+      rss: 75350016,
+      heapTotal: 24428544,
+      heapUsed: 22088648,
+      external: 20846067,
+      arrayBuffers: 18322413
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 49576.218 },
+  trace: [
+    {
+      column: 11,
+      file: 'C:\\persodm\\server\\node_modules\\mongoose\\lib\\connection.js',
+      function: 'NativeConnection.close',
+      line: 856,
+      method: 'close',
+      native: false
+    },
+    {
+      column: 25,
+      file: 'C:\\persodm\\server\\enhancedServer.js',
+      function: null,
+      line: 216,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Object.onceWrapper',
+      line: 622,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Server.emit',
+      line: 508,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 8,
+      file: 'node:net',
+      function: 'emitCloseNT',
+      line: 2419,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 88,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  service: 'personal-data-manager',
+  timestamp: '2026-04-13 02:02:37'
+}
+{
+  error: MongooseError: Connection.prototype.close() no longer accepts a callback
+      at NativeConnection.close (C:\persodm\server\node_modules\mongoose\lib\connection.js:856:11)
+      at Server.<anonymous> (C:\persodm\server\enhancedServer.js:216:25)
+      at Object.onceWrapper (node:events:622:28)
+      at Server.emit (node:events:508:28)
+      at emitCloseNT (node:net:2419:8)
+      at process.processTicksAndRejections (node:internal/process/task_queues:88:21),
+  level: 'error',
+  message: 'unhandledRejection: Connection.prototype.close() no longer accepts a callback\n' +
+    'MongooseError: Connection.prototype.close() no longer accepts a callback\n' +
+    '    at NativeConnection.close (C:\\persodm\\server\\node_modules\\mongoose\\lib\\connection.js:856:11)\n' +
+    '    at Server.<anonymous> (C:\\persodm\\server\\enhancedServer.js:216:25)\n' +
+    '    at Object.onceWrapper (node:events:622:28)\n' +
+    '    at Server.emit (node:events:508:28)\n' +
+    '    at emitCloseNT (node:net:2419:8)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:88:21)',
+  stack: 'MongooseError: Connection.prototype.close() no longer accepts a callback\n' +
+    '    at NativeConnection.close (C:\\persodm\\server\\node_modules\\mongoose\\lib\\connection.js:856:11)\n' +
+    '    at Server.<anonymous> (C:\\persodm\\server\\enhancedServer.js:216:25)\n' +
+    '    at Object.onceWrapper (node:events:622:28)\n' +
+    '    at Server.emit (node:events:508:28)\n' +
+    '    at emitCloseNT (node:net:2419:8)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:88:21)',
+  rejection: true,
+  date: 'Mon Apr 13 2026 13:31:09 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 6400,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\persodm\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v24.12.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\persodm\\server\\enhancedServer.js'
+    ],
+    memoryUsage: {
+      rss: 73428992,
+      heapTotal: 23904256,
+      heapUsed: 22202840,
+      external: 20903605,
+      arrayBuffers: 18379951
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1444.218 },
+  trace: [
+    {
+      column: 11,
+      file: 'C:\\persodm\\server\\node_modules\\mongoose\\lib\\connection.js',
+      function: 'NativeConnection.close',
+      line: 856,
+      method: 'close',
+      native: false
+    },
+    {
+      column: 25,
+      file: 'C:\\persodm\\server\\enhancedServer.js',
+      function: null,
+      line: 216,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Object.onceWrapper',
+      line: 622,
+      method: 'onceWrapper',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'Server.emit',
+      line: 508,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 8,
+      file: 'node:net',
+      function: 'emitCloseNT',
+      line: 2419,
+      method: null,
+      native: false
+    },
+    {
+      column: 21,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 88,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  service: 'personal-data-manager',
+  timestamp: '2026-04-13 13:31:09'
+}

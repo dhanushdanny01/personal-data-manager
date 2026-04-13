@@ -1,0 +1,114 @@
+{
+  message: 'Server running in production mode on port 5002',
+  level: 'info',
+  service: 'personal-data-manager',
+  timestamp: '2026-04-13 01:24:40'
+}
+{
+  message: 'Health check available at http://localhost:5002/health',
+  level: 'info',
+  service: 'personal-data-manager',
+  timestamp: '2026-04-13 01:24:40'
+}
+{
+  message: 'Server running in production mode on port 5002',
+  level: 'info',
+  service: 'personal-data-manager',
+  timestamp: '2026-04-13 01:24:48'
+}
+{
+  message: 'Health check available at http://localhost:5002/health',
+  level: 'info',
+  service: 'personal-data-manager',
+  timestamp: '2026-04-13 01:24:48'
+}
+{
+  message: 'Received SIGINT. Starting graceful shutdown...',
+  level: 'info',
+  service: 'personal-data-manager',
+  timestamp: '2026-04-13 01:34:24'
+}
+{
+  message: 'Server running in production mode on port 5002',
+  level: 'info',
+  service: 'personal-data-manager',
+  timestamp: '2026-04-13 01:37:43'
+}
+{
+  message: 'Health check available at http://localhost:5002/health',
+  level: 'info',
+  service: 'personal-data-manager',
+  timestamp: '2026-04-13 01:37:43'
+}
+{
+  message: 'Server running in production mode on port 5002',
+  level: 'info',
+  service: 'personal-data-manager',
+  timestamp: '2026-04-13 01:43:03'
+}
+{
+  message: 'Health check available at http://localhost:5002/health',
+  level: 'info',
+  service: 'personal-data-manager',
+  timestamp: '2026-04-13 01:43:03'
+}
+{
+  message: 'Received SIGINT. Starting graceful shutdown...',
+  level: 'info',
+  service: 'personal-data-manager',
+  timestamp: '2026-04-13 01:44:36'
+}
+{
+  message: 'Server running in production mode on port 5002',
+  level: 'info',
+  service: 'personal-data-manager',
+  timestamp: '2026-04-13 01:45:12'
+}
+{
+  message: 'Health check available at http://localhost:5002/health',
+  level: 'info',
+  service: 'personal-data-manager',
+  timestamp: '2026-04-13 01:45:12'
+}
+{
+  message: 'Received SIGINT. Starting graceful shutdown...',
+  level: 'info',
+  service: 'personal-data-manager',
+  timestamp: '2026-04-13 01:48:23'
+}
+{
+  message: 'Server running in production mode on port 5002',
+  level: 'info',
+  service: 'personal-data-manager',
+  timestamp: '2026-04-13 01:48:56'
+}
+{
+  message: 'Health check available at http://localhost:5002/health',
+  level: 'info',
+  service: 'personal-data-manager',
+  timestamp: '2026-04-13 01:48:56'
+}
+{
+  message: 'Received SIGINT. Starting graceful shutdown...',
+  level: 'info',
+  service: 'personal-data-manager',
+  timestamp: '2026-04-13 02:02:37'
+}
+{
+  message: 'Server running in production mode on port 5002',
+  level: 'info',
+  service: 'personal-data-manager',
+  timestamp: '2026-04-13 13:28:10'
+}
+{
+  message: 'Health check available at http://localhost:5002/health',
+  level: 'info',
+  service: 'personal-data-manager',
+  timestamp: '2026-04-13 13:28:10'
+}
+{
+  message: 'Received SIGINT. Starting graceful shutdown...',
+  level: 'info',
+  service: 'personal-data-manager',
+  timestamp: '2026-04-13 13:31:09'
+}

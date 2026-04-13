@@ -1,0 +1,495 @@
+{
+  error: TypeError: logger.error is not a function
+      at process.<anonymous> (C:\persodm\server\middleware\errorHandler.js:193:10)
+      at process.emit (node:events:520:35)
+      at emitUnhandledRejection (node:internal/process/promises:252:13)
+      at throwUnhandledRejectionsMode (node:internal/process/promises:388:19)
+      at processPromiseRejections (node:internal/process/promises:475:17)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:32),
+  level: 'error',
+  message: 'uncaughtException: logger.error is not a function\n' +
+    'TypeError: logger.error is not a function\n' +
+    '    at process.<anonymous> (C:\\persodm\\server\\middleware\\errorHandler.js:193:10)\n' +
+    '    at process.emit (node:events:520:35)\n' +
+    '    at emitUnhandledRejection (node:internal/process/promises:252:13)\n' +
+    '    at throwUnhandledRejectionsMode (node:internal/process/promises:388:19)\n' +
+    '    at processPromiseRejections (node:internal/process/promises:475:17)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:104:32)',
+  stack: 'TypeError: logger.error is not a function\n' +
+    '    at process.<anonymous> (C:\\persodm\\server\\middleware\\errorHandler.js:193:10)\n' +
+    '    at process.emit (node:events:520:35)\n' +
+    '    at emitUnhandledRejection (node:internal/process/promises:252:13)\n' +
+    '    at throwUnhandledRejectionsMode (node:internal/process/promises:388:19)\n' +
+    '    at processPromiseRejections (node:internal/process/promises:475:17)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:104:32)',
+  exception: true,
+  date: 'Mon Apr 13 2026 01:34:24 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 24976,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\persodm\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v24.12.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\persodm\\server\\enhancedServer.js'
+    ],
+    memoryUsage: {
+      rss: 68927488,
+      heapTotal: 23642112,
+      heapUsed: 21330256,
+      external: 20804469,
+      arrayBuffers: 18291687
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 47883.75 },
+  trace: [
+    {
+      column: 10,
+      file: 'C:\\persodm\\server\\middleware\\errorHandler.js',
+      function: null,
+      line: 193,
+      method: null,
+      native: false
+    },
+    {
+      column: 35,
+      file: 'node:events',
+      function: 'process.emit',
+      line: 520,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'node:internal/process/promises',
+      function: 'emitUnhandledRejection',
+      line: 252,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/process/promises',
+      function: 'throwUnhandledRejectionsMode',
+      line: 388,
+      method: null,
+      native: false
+    },
+    {
+      column: 17,
+      file: 'node:internal/process/promises',
+      function: 'processPromiseRejections',
+      line: 475,
+      method: null,
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 104,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  service: 'personal-data-manager',
+  timestamp: '2026-04-13 01:34:24'
+}
+{
+  error: TypeError: logger.error is not a function
+      at process.<anonymous> (C:\persodm\server\middleware\errorHandler.js:193:10)
+      at process.emit (node:events:520:35)
+      at emitUnhandledRejection (node:internal/process/promises:252:13)
+      at throwUnhandledRejectionsMode (node:internal/process/promises:388:19)
+      at processPromiseRejections (node:internal/process/promises:475:17)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:32),
+  level: 'error',
+  message: 'uncaughtException: logger.error is not a function\n' +
+    'TypeError: logger.error is not a function\n' +
+    '    at process.<anonymous> (C:\\persodm\\server\\middleware\\errorHandler.js:193:10)\n' +
+    '    at process.emit (node:events:520:35)\n' +
+    '    at emitUnhandledRejection (node:internal/process/promises:252:13)\n' +
+    '    at throwUnhandledRejectionsMode (node:internal/process/promises:388:19)\n' +
+    '    at processPromiseRejections (node:internal/process/promises:475:17)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:104:32)',
+  stack: 'TypeError: logger.error is not a function\n' +
+    '    at process.<anonymous> (C:\\persodm\\server\\middleware\\errorHandler.js:193:10)\n' +
+    '    at process.emit (node:events:520:35)\n' +
+    '    at emitUnhandledRejection (node:internal/process/promises:252:13)\n' +
+    '    at throwUnhandledRejectionsMode (node:internal/process/promises:388:19)\n' +
+    '    at processPromiseRejections (node:internal/process/promises:475:17)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:104:32)',
+  exception: true,
+  date: 'Mon Apr 13 2026 01:44:36 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 7992,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\persodm\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v24.12.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\persodm\\server\\enhancedServer.js'
+    ],
+    memoryUsage: {
+      rss: 73666560,
+      heapTotal: 25477120,
+      heapUsed: 22074936,
+      external: 20882490,
+      arrayBuffers: 18358796
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 48495.187 },
+  trace: [
+    {
+      column: 10,
+      file: 'C:\\persodm\\server\\middleware\\errorHandler.js',
+      function: null,
+      line: 193,
+      method: null,
+      native: false
+    },
+    {
+      column: 35,
+      file: 'node:events',
+      function: 'process.emit',
+      line: 520,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'node:internal/process/promises',
+      function: 'emitUnhandledRejection',
+      line: 252,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/process/promises',
+      function: 'throwUnhandledRejectionsMode',
+      line: 388,
+      method: null,
+      native: false
+    },
+    {
+      column: 17,
+      file: 'node:internal/process/promises',
+      function: 'processPromiseRejections',
+      line: 475,
+      method: null,
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 104,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  service: 'personal-data-manager',
+  timestamp: '2026-04-13 01:44:36'
+}
+{
+  error: TypeError: logger.error is not a function
+      at process.<anonymous> (C:\persodm\server\middleware\errorHandler.js:193:10)
+      at process.emit (node:events:520:35)
+      at emitUnhandledRejection (node:internal/process/promises:252:13)
+      at throwUnhandledRejectionsMode (node:internal/process/promises:388:19)
+      at processPromiseRejections (node:internal/process/promises:475:17)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:32),
+  level: 'error',
+  message: 'uncaughtException: logger.error is not a function\n' +
+    'TypeError: logger.error is not a function\n' +
+    '    at process.<anonymous> (C:\\persodm\\server\\middleware\\errorHandler.js:193:10)\n' +
+    '    at process.emit (node:events:520:35)\n' +
+    '    at emitUnhandledRejection (node:internal/process/promises:252:13)\n' +
+    '    at throwUnhandledRejectionsMode (node:internal/process/promises:388:19)\n' +
+    '    at processPromiseRejections (node:internal/process/promises:475:17)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:104:32)',
+  stack: 'TypeError: logger.error is not a function\n' +
+    '    at process.<anonymous> (C:\\persodm\\server\\middleware\\errorHandler.js:193:10)\n' +
+    '    at process.emit (node:events:520:35)\n' +
+    '    at emitUnhandledRejection (node:internal/process/promises:252:13)\n' +
+    '    at throwUnhandledRejectionsMode (node:internal/process/promises:388:19)\n' +
+    '    at processPromiseRejections (node:internal/process/promises:475:17)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:104:32)',
+  exception: true,
+  date: 'Mon Apr 13 2026 01:48:23 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 19900,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\persodm\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v24.12.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\persodm\\server\\enhancedServer.js'
+    ],
+    memoryUsage: {
+      rss: 73924608,
+      heapTotal: 23904256,
+      heapUsed: 21699672,
+      external: 20837806,
+      arrayBuffers: 18314112
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 48722.656 },
+  trace: [
+    {
+      column: 10,
+      file: 'C:\\persodm\\server\\middleware\\errorHandler.js',
+      function: null,
+      line: 193,
+      method: null,
+      native: false
+    },
+    {
+      column: 35,
+      file: 'node:events',
+      function: 'process.emit',
+      line: 520,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'node:internal/process/promises',
+      function: 'emitUnhandledRejection',
+      line: 252,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/process/promises',
+      function: 'throwUnhandledRejectionsMode',
+      line: 388,
+      method: null,
+      native: false
+    },
+    {
+      column: 17,
+      file: 'node:internal/process/promises',
+      function: 'processPromiseRejections',
+      line: 475,
+      method: null,
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 104,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  service: 'personal-data-manager',
+  timestamp: '2026-04-13 01:48:23'
+}
+{
+  error: TypeError: logger.error is not a function
+      at process.<anonymous> (C:\persodm\server\middleware\errorHandler.js:193:10)
+      at process.emit (node:events:520:35)
+      at emitUnhandledRejection (node:internal/process/promises:252:13)
+      at throwUnhandledRejectionsMode (node:internal/process/promises:388:19)
+      at processPromiseRejections (node:internal/process/promises:475:17)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:32),
+  level: 'error',
+  message: 'uncaughtException: logger.error is not a function\n' +
+    'TypeError: logger.error is not a function\n' +
+    '    at process.<anonymous> (C:\\persodm\\server\\middleware\\errorHandler.js:193:10)\n' +
+    '    at process.emit (node:events:520:35)\n' +
+    '    at emitUnhandledRejection (node:internal/process/promises:252:13)\n' +
+    '    at throwUnhandledRejectionsMode (node:internal/process/promises:388:19)\n' +
+    '    at processPromiseRejections (node:internal/process/promises:475:17)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:104:32)',
+  stack: 'TypeError: logger.error is not a function\n' +
+    '    at process.<anonymous> (C:\\persodm\\server\\middleware\\errorHandler.js:193:10)\n' +
+    '    at process.emit (node:events:520:35)\n' +
+    '    at emitUnhandledRejection (node:internal/process/promises:252:13)\n' +
+    '    at throwUnhandledRejectionsMode (node:internal/process/promises:388:19)\n' +
+    '    at processPromiseRejections (node:internal/process/promises:475:17)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:104:32)',
+  exception: true,
+  date: 'Mon Apr 13 2026 02:02:37 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 23240,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\persodm\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v24.12.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\persodm\\server\\enhancedServer.js'
+    ],
+    memoryUsage: {
+      rss: 75530240,
+      heapTotal: 24428544,
+      heapUsed: 22333624,
+      external: 20854323,
+      arrayBuffers: 18330629
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 49576.218 },
+  trace: [
+    {
+      column: 10,
+      file: 'C:\\persodm\\server\\middleware\\errorHandler.js',
+      function: null,
+      line: 193,
+      method: null,
+      native: false
+    },
+    {
+      column: 35,
+      file: 'node:events',
+      function: 'process.emit',
+      line: 520,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'node:internal/process/promises',
+      function: 'emitUnhandledRejection',
+      line: 252,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/process/promises',
+      function: 'throwUnhandledRejectionsMode',
+      line: 388,
+      method: null,
+      native: false
+    },
+    {
+      column: 17,
+      file: 'node:internal/process/promises',
+      function: 'processPromiseRejections',
+      line: 475,
+      method: null,
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 104,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  service: 'personal-data-manager',
+  timestamp: '2026-04-13 02:02:37'
+}
+{
+  error: TypeError: logger.error is not a function
+      at process.<anonymous> (C:\persodm\server\middleware\errorHandler.js:193:10)
+      at process.emit (node:events:520:35)
+      at emitUnhandledRejection (node:internal/process/promises:252:13)
+      at throwUnhandledRejectionsMode (node:internal/process/promises:388:19)
+      at processPromiseRejections (node:internal/process/promises:475:17)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:32),
+  level: 'error',
+  message: 'uncaughtException: logger.error is not a function\n' +
+    'TypeError: logger.error is not a function\n' +
+    '    at process.<anonymous> (C:\\persodm\\server\\middleware\\errorHandler.js:193:10)\n' +
+    '    at process.emit (node:events:520:35)\n' +
+    '    at emitUnhandledRejection (node:internal/process/promises:252:13)\n' +
+    '    at throwUnhandledRejectionsMode (node:internal/process/promises:388:19)\n' +
+    '    at processPromiseRejections (node:internal/process/promises:475:17)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:104:32)',
+  stack: 'TypeError: logger.error is not a function\n' +
+    '    at process.<anonymous> (C:\\persodm\\server\\middleware\\errorHandler.js:193:10)\n' +
+    '    at process.emit (node:events:520:35)\n' +
+    '    at emitUnhandledRejection (node:internal/process/promises:252:13)\n' +
+    '    at throwUnhandledRejectionsMode (node:internal/process/promises:388:19)\n' +
+    '    at processPromiseRejections (node:internal/process/promises:475:17)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:104:32)',
+  exception: true,
+  date: 'Mon Apr 13 2026 13:31:09 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 6400,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\persodm\\server',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v24.12.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\persodm\\server\\enhancedServer.js'
+    ],
+    memoryUsage: {
+      rss: 73752576,
+      heapTotal: 23904256,
+      heapUsed: 22450032,
+      external: 20911861,
+      arrayBuffers: 18388167
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 1444.218 },
+  trace: [
+    {
+      column: 10,
+      file: 'C:\\persodm\\server\\middleware\\errorHandler.js',
+      function: null,
+      line: 193,
+      method: null,
+      native: false
+    },
+    {
+      column: 35,
+      file: 'node:events',
+      function: 'process.emit',
+      line: 520,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 13,
+      file: 'node:internal/process/promises',
+      function: 'emitUnhandledRejection',
+      line: 252,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/process/promises',
+      function: 'throwUnhandledRejectionsMode',
+      line: 388,
+      method: null,
+      native: false
+    },
+    {
+      column: 17,
+      file: 'node:internal/process/promises',
+      function: 'processPromiseRejections',
+      line: 475,
+      method: null,
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/process/task_queues',
+      function: 'process.processTicksAndRejections',
+      line: 104,
+      method: 'processTicksAndRejections',
+      native: false
+    }
+  ],
+  service: 'personal-data-manager',
+  timestamp: '2026-04-13 13:31:09'
+}
